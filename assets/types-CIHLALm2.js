@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-XKyaHtl9.js";var t=e({FunctionError:()=>r,listProjectsForWorkspace:()=>n});async function n(e,t){return(await e.listProjects()).filter(e=>e.workspaceId===t)}var r=class extends Error{status;constructor(e,t){super(e),this.status=t,this.name=`FunctionError`}};export{t as n,r as t};

@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./app-DDelksTA.js","./index-CUu_p9iY.js","./rolldown-runtime-XKyaHtl9.js","./index-DS-EWxGY.css","./app-BaAF8tgl.css"])))=>i.map(i=>d[i]);
+import{g as e}from"./index-CUu_p9iY.js";var t=null,n={id:`costs`,title:`Costs`,available:!0,async mount(n){t?.destroy();let{CostsApp:r}=await e(async()=>{let{CostsApp:e}=await import(`./app-DDelksTA.js`);return{CostsApp:e}},__vite__mapDeps([0,1,2,3,4]),import.meta.url);t=new r(n)},unmount(){t?.destroy(),t=null}};export{n as costsModule};
